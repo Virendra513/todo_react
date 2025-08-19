@@ -1,10 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-interface Item {
-  id?: string;
-  name: string;
-}
+
 
 interface Props {
   onItemCreated: () => void;
